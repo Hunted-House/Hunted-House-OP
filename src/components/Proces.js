@@ -8,11 +8,11 @@ export default function Proces() {
 
 
   return (
-    <section id='progress' className='bg-quaternary h-screen w-full flex relative'>
+    <section id='progress' className='bg-quaternary min-h-screen w-full'>
       <div className='absolute w-full h-1/2' >
         <Image className="top-0 left-0 z-0 rotate-180 opacity-80 hidden lg:block" src='/img/png/bats.png' alt='progress' fill style={{ objectFit: "cover" }} />
       </div>
-      <div class="py-16 px-4 mx-auto max-w-screen-xl lg:py-24 lg:px-6 lg:pt-96 z-10">
+      <div class="py-16 px-4 mx-auto max-w-screen-xl lg:py-24 lg:px-6 lg:pt-96 z-10 relative">
         <div class="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16 lg:pt-24">
           <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-white">Het proces</h2>
         </div>

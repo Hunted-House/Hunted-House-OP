@@ -13,7 +13,7 @@ export default function Team() {
     ]
 
     return (
-        <section id='team' className="bg-secondary">
+        <section id='team' className="bg-secondary min-h-screen w-full">
             <div class="py-16 px-4 mx-auto max-w-screen-xl lg:py-24 lg:px-6">
                 <div class="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
                     <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-white">Het Team achter Hunted House</h2>
