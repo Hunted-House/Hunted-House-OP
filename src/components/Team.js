@@ -17,7 +17,7 @@ export default function Team() {
             <div class="py-16 px-4 mx-auto max-w-screen-xl lg:py-24 lg:px-6">
                 <div class="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
                     <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-white">Het Team achter Hunted House</h2>
-                    <p class="font-light text-white lg:mb-16 sm:text-xl">Hier moet nog een kleine text over het team zelf !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</p>
+                    {/* <p class="font-light text-white lg:mb-16 sm:text-xl">Hier moet nog een kleine text over het team zelf !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</p> */}
                 </div>
                 <div class="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
                     {team.map((person) => (
