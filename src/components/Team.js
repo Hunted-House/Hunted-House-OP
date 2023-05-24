@@ -5,7 +5,7 @@ export default function Team() {
 
     const team = [
         { name: 'Mischa de Zeeuw', role: 'Student CMD', description: 'Ik focus mij graag op maatschappelijke en duurzame thema’s. Ik heb een passie voor fashion en grafisch ontwerp. Een esthetisch strelend ontwerp met een sterke boodschap is altijd mijn doel.', image: '/img/png/mischa.png' },
-        { name: 'Louis', role: 'Student CMGT', description: 'lorem ipsum', image: '/img/png/louis.png' },
+        { name: 'Louis Laureys', role: 'Student CMGT', description: 'Ik hou er van om technisch ingewikkelde problemen aan te pakken, en dan ook op een goede manier. Van frontend tot backend tot linux, allemaal leuk. M\'n huis is een enorme jungle, en ik hou stiekem wel van koken.', image: '/img/png/louis.png' },
         { name: 'Thyra', role: 'Student CMD', description: 'Mijn sterkste punten als CMDer zijn onderzoek en conceptvorming, maar ik ben nog veel breder inzetbaar. In mijn vrije tijd ben ik altijd creatief bezig. Voor deze Design Challenge is het mijn doel om op een zo creatief mogelijke manier met het vraagstuk om te gaan.', image: '/img/png/thyra.png' },
         { name: 'Dewi', role: 'Student CMD', description: 'Ik houd mij graag bezig met de opleiding en ben in mijn vrije tijd ook bezig met webdesign. Ik ben graag met mijn vrienden buiten om te genieten van het goede weer.', image: '/img/png/dewi.png' },
         { name: 'Olivier Vromans', role: 'Student CMGT', description: 'Ik ben een full stack programmeur waarbij ik de focus leg op backed development. Buiten mijn studie werk ik in de keuken van een pannekoekenrestaurant.', image: '/img/png/olivier.png' },
