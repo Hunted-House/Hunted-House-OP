@@ -2,10 +2,10 @@ import React from 'react';
 
 export default function Assignment() {
   return (
-    <section id='assignment' className="bg-tertiary min-h-screen">
+    <section id='assignment' className="bg-tertiary min-h-screen w-full">
       <div class="py-16 px-4 mx-auto max-w-screen-xl lg:py-24 lg:px-6">
         <div class="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
-          <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-white">Het Team achter Hunted House</h2>
+          <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-white">De opdracht</h2>
           <p class="font-light text-white lg:mb-16 sm:text-xl">Voor het project voor de vakken Medialab 2 (CMGT) en Design Challenge 8 (CMD) zijn wij aan het werk gezet voor de gemeente Den Haag. Wij kregen een aantal mogelijke opdrachten, waaruit wij gekozen hebben om aan het werk te gaan met vleermuizen in de stad.  De opdrachtbeschrijving gaat als volgt.</p>
         </div>
         <hr class="h-px my-8 bg-gray-200" />
