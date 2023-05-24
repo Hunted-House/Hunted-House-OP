@@ -7,8 +7,8 @@ import Icon from './Icon.js';
 const navigation = [
     { name: 'Dashboard', href: '/', current: true },
     { name: 'Team', href: '#team', current: false },
-    { name: 'Opdracht', href: '#', current: false },
-    { name: 'Concepten', href: '#', current: false },
+    { name: 'Opdracht', href: '#assignment', current: false },
+    { name: 'Concepten', href: '#concept', current: false },
 ]
 
 function classNames(...classes) {
