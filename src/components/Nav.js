@@ -5,8 +5,8 @@ import Logo from './Logo.js';
 import Icon from './Icon.js';
 
 const navigation = [
-    { name: 'Dashboard', href: '#', current: true },
-    { name: 'Team', href: '#', current: false },
+    { name: 'Dashboard', href: '/', current: true },
+    { name: 'Team', href: '#team', current: false },
     { name: 'Opdracht', href: '#', current: false },
     { name: 'Concepten', href: '#', current: false },
 ]
@@ -17,7 +17,7 @@ function classNames(...classes) {
 
 export default function Nav() {
     return (
-        <Disclosure as="nav" className="bg-transparent w-full fixed top-0">
+        <Disclosure as="nav" className="bg-transparent w-full fixed top-0 z-50">
             {({ open }) => (
                 <>
                     <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">

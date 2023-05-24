@@ -12,7 +12,7 @@ export default function Hero() {
         <div className='pb-24 lg:pb-0'>
           <Logo color='white' width='400px' />
         </div>
-        <p className='text-l lg:text-xl text-center lg:w-1/3'>
+        <p className='text-l lg:text-xl text-center lg:w-1/3 text-white'>
           In samenwerking met gemeente Den Haag proberen wij mens en vleermuis samen te brengen met behulp van immersive technology.</p>
       </div>
     </div>
