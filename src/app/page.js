@@ -10,7 +10,7 @@ import Team from '@/components/Team.js';
 export default function Home() {
   return (
     <main>
-      <Nav />
+      {/* <Nav /> */}
       <Hero />
       <Team />
       <Opdracht />
