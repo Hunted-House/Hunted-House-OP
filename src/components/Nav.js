@@ -5,7 +5,7 @@ import Logo from './Logo.js';
 import Icon from './Icon.js';
 
 const navigation = [
-    { name: 'Dashboard', href: '/', current: true },
+    { name: 'Home', href: '/', current: true },
     { name: 'Team', href: '#team', current: false },
     { name: 'Opdracht', href: '#assignment', current: false },
     { name: 'Concepten', href: '#concept', current: false },
