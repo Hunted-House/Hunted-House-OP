@@ -17,7 +17,7 @@ function classNames(...classes) {
 
 export default function Nav() {
     return (
-        <Disclosure as="nav" className="bg-transparent w-full fixed top-0 z-50">
+        <Disclosure as="nav" className="backdrop-blur bg-white/50 w-full fixed top-0 z-50">
             {({ open }) => (
                 <>
                     <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -51,8 +51,8 @@ export default function Nav() {
                                                 key={item.name}
                                                 href={item.href}
                                                 className={classNames(
-                                                    item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-                                                    'rounded-md px-3 py-2 text-sm font-medium'
+                                                    item.current ? 'bg-gray-900 text-white' : 'text-gray-700 hover:bg-gray-700 hover:text-white',
+                                                    'font-bold rounded-md px-3 py-2 text-sm'
                                                 )}
                                                 aria-current={item.current ? 'page' : undefined}
                                             >
