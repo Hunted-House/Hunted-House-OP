@@ -17,7 +17,6 @@ export default function Team() {
             <div class="py-16 px-4 mx-auto max-w-screen-xl lg:py-24 lg:px-6">
                 <div class="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
                     <h2 class="title">Het Team achter Hunted House</h2>
-                    {/* <p class="font-light text-white lg:mb-16 sm:text-xl">Hier moet nog een kleine text over het team zelf !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</p> */}
                 </div>
                 <div class="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
                     {team.map((person) => (
@@ -26,8 +25,8 @@ export default function Team() {
                                 <Image className="rounded-lg sm:rounded-none sm:rounded-l-lg object-contain" src={person.image} alt={`${person.name}'s Avatar`} fill style={{objectFit: "cover"}} placeholder='blur' blurDataURL='/img/png/icon-white.png' />
                             </div>
                             <div class="h-full w-full flex-1 flex flex-col p-5">
-                                <h3 class="text-xl font-bold tracking-tight text-white">
-                                    <a href="#">{person.name}</a>
+                                <h3 class="text-xl font-bold tracking-tight">
+                                    <p>{person.name}</p>
                                 </h3>
                                 <span class="text-gray-200 ">{person.role}</span>
                                 <p class="mt-3 mb-4 font-light text-gray-300">{person.description}</p>

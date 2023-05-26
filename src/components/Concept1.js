@@ -8,7 +8,7 @@ export default function Concept1() {
           <div className="lg:pr-4">
             <div className="lg:max-w-lg">
               <h2 className="title">Concept 1: Table</h2>
-              <p className="mt-6 text-xl leading-8 text-white">
+              <p className="mt-6 text-xl leading-8">
               Veel mensen hebben geen enkel idee hoe belangrijk vleermuizen zijn voor verschillende ecosystemen binnen Nederland. Het is voor ons dus de bedoeling dat wij het nut van de vleermuis binnen ecosystemen laten zien. Dit willen we doen door middel van een immersieve ervaring waarin ecosystemen weergegeven worden als er geen vleermuizen meer zouden zijn.
               </p>
             </div>

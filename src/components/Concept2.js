@@ -11,7 +11,7 @@ export default function Concept2() {
           <div className="lg:pr-4">
             <div className="lg:max-w-lg">
               <h2 className="title">Concept 2: Sonar</h2>
-              <p className="mt-6 text-xl leading-8 text-white">
+              <p className="mt-6 text-xl leading-8">
                 Er bestaat een kloof tussen wat mensen weten over de nachtelijke avonturen van een vleermuis en wat vleermuizen daadwerkelijk meemaken in een nacht. Om deze kloof te verkleinen, gebruikt Sonar een audiovisuele ervaring om duidelijk te maken hoe de sonargeluiden van een vleermuis gebruikt worden tijdens onder andere het jagen op prooi en het vinden van andere vleermuizen.
               </p>
             </div>
@@ -43,7 +43,7 @@ export default function Concept2() {
                   </span>
                 </li>
                 <li className="flex gap-x-3">
-                  <CheckIcon className="mt-1 h-5 w-5 flex-none text-white" aria-hidden="true" />
+                  <CheckIcon className="mt-1 h-5 w-5 flex-none " aria-hidden="true" />
                   <span>
                     <strong className="font-semibold text-gray-300">Waarom deze manier:</strong> "vleermuizen gebruiken hun oren en stembanden om te communiceren" (sonar)
                   </span>

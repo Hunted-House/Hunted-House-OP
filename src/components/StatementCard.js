@@ -7,7 +7,7 @@ export default function StatementCard() {
     <section className="bg-primary min-h-screen w-full flex">
       <div class="pt-16 px-4 mx-auto max-w-screen-xl lg:py-24 lg:px-6">
         <div class="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
-          <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-white">Brainstorm</h2>
+          <h2 class="mb-4 text-4xl tracking-tight font-extrabold">Brainstorm</h2>
         </div>
         <div className='flex flex-col lg:flex-row items-center justify-center lg:place-content-around p-4 relative'>
           <div class="flex rounded flex-1 relative w-24 h-24 lg:w-96 lg:h-96">

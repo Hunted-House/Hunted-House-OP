@@ -11,7 +11,7 @@ export default function Hero() {
         <div className='pb-24 lg:pb-0  lg:w-96'>
           <Logo color='white' />
         </div>
-        <p className='text-l lg:text-xl text-center lg:w-1/3 text-white'>
+        <p className='text-l lg:text-xl text-center lg:w-1/3 '>
           In samenwerking met gemeente Den Haag proberen wij mens en vleermuis samen te brengen met behulp van immersive technology.</p>
       </div>
     </div>
