@@ -14,22 +14,24 @@ export default function Team() {
 
     return (
         <section id='team' className="bg-secondary min-h-screen w-full">
-            <div class="py-16 px-4 mx-auto max-w-screen-xl lg:py-24 lg:px-6">
-                <div class="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
-                    <h2 class="title">Het Team achter Hunted House</h2>
+            <div className="py-16 px-4 mx-auto max-w-screen-xl lg:py-24 lg:px-6">
+                <div className="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
+                    <h2 className="title">Het Team achter Hunted House</h2>
                 </div>
-                <div class="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
+                <div className="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
                     {team.map((person) => (
-                        <div class="items-center rounded-lg shadow flex flex-col sm:flex-row bg-gray-800 border-gray-700">
+                        <div className="items-center rounded-lg shadow flex flex-col sm:flex-row bg-gray-800 border-gray-700">
                             <div className='h-full w-64 relative'>
-                                <Image className="rounded-lg sm:rounded-none sm:rounded-l-lg object-contain" src={person.image} alt={`${person.name}'s Avatar`} fill style={{objectFit: "cover"}} placeholder='blur' blurDataURL='/img/png/icon-white.png' />
+                                <Image className="rounded-lg sm:rounded-none sm:rounded-l-lg object-contain" src={person.image} alt={`${person.name}'s Avatar`} fill style={{objectFit: "cover"}} placeholder='blur' blurDataURL='/img/png/icon-white.png' 
+                                sizes='(min-width: 1024px) 640px, (min-width: 768px) 50vw, 100vw'
+                                />
                             </div>
-                            <div class="h-full w-full flex-1 flex flex-col p-5">
-                                <h3 class="text-xl font-bold tracking-tight">
+                            <div className="h-full w-full flex-1 flex flex-col p-5">
+                                <h3 className="text-xl font-bold tracking-tight">
                                     <p>{person.name}</p>
                                 </h3>
-                                <span class="text-gray-200 ">{person.role}</span>
-                                <p class="mt-3 mb-4 font-light text-gray-300">{person.description}</p>
+                                <span className="text-gray-200 ">{person.role}</span>
+                                <p className="mt-3 mb-4 font-light text-gray-300">{person.description}</p>
                             </div>
                         </div>
                     ))}

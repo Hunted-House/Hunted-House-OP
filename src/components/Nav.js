@@ -9,11 +9,14 @@ const navigation = [
     { name: 'Team', href: '#team', current: false },
     { name: 'Opdracht', href: '#assignment', current: false },
     { name: 'Concepten', href: '#concept', current: false },
+    { name: 'Resultaat', href: '#result', current: false },
 ]
 
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
 }
+
+
 
 export default function Nav() {
     return (

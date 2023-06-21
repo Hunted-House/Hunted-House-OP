@@ -1,4 +1,5 @@
 import { CheckIcon } from '@heroicons/react/24/outline'
+import Concept2 from './Concept2.js'
 
 export default function Concept1() {
   return (
